@@ -1,0 +1,1032 @@
+/** @format */
+
+body {
+  box-sizing: borderbox;
+  background-color: #282a35 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700px;
+}
+
+p {
+  font-size: 19px;
+}
+
+.main {
+  width: 120%;
+  background-color: rgb(51, 49, 49);
+}
+.learntocode {
+  height: 500px;
+  margin: auto;
+  width: 50%;
+  background-color: #282a35 !important;
+}
+.code {
+  padding-top: 7px;
+}
+.learn {
+  width: 100%;
+  text-align: center;
+  line-height: 2;
+  margin: auto;
+  padding: 10px;
+  font-size: 50px;
+  color: whitesmoke;
+}
+
+.with {
+  text-align: center;
+  line-height: 2;
+  color: rgb(247, 175, 116);
+  width: 100%;
+  font-size: 19px;
+  margin: auto;
+}
+
+input[type="search"] {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 18px;
+  padding-right: 15%;
+  box-sizing: border-box;
+}
+
+.searchbox {
+  text-align: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 10px;
+}
+
+input[type="search"]:hover {
+  color: blue;
+}
+
+.notsure {
+  color: white;
+  align-content: center;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: gray;
+}
+
+/* Code for html div */
+
+.html {
+  background-color: powderblue;
+  width: 100%;
+  margin: auto;
+  height: 500px;
+}
+
+.htmlcontent {
+  padding: 30px;
+  align-items: center;
+  margin: 30px auto;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+.languagehtml {
+  width: 100%;
+  margin: auto;
+}
+
+.btnhtml {
+  color: whitesmoke;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  border-radius: 38px;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(10, 107, 13);
+  margin: 5px auto;
+}
+
+.btnvideo {
+  color: #282a35;
+  padding: 12px 20px;
+  width: 200px;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  border-radius: 38px;
+  text-align: center;
+  background-color: rgb(238, 238, 106);
+  margin: auto;
+}
+
+.btnreference {
+  color: white;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  border-radius: 38px;
+  text-align: center;
+  background-color: #282a35;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.btncertificate {
+  color: #282a35;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  border-radius: 38px;
+  text-align: center;
+  background-color: rgb(220, 167, 177);
+  margin: auto;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.btndiv {
+  margin: 20px;
+}
+
+/* CSS CODE STARTS HERE*/
+
+.cssheader {
+  margin-top: 30px;
+}
+
+.section {
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(238, 238, 106);
+}
+
+.csscontent {
+  padding: 30px;
+  align-items: center;
+  margin: 30px auto;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.csslanguage {
+  width: 100%;
+}
+
+/* Javascript Code starts here*/
+
+.javascript {
+  position: relative;
+  bottom: 30px;
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  background-color: #282a35;
+  color: white;
+}
+
+.java {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin: auto;
+  padding-top: px;
+  line-height: 2;
+  padding: 0px 20px;
+}
+
+.javalan {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  line-height: 2;
+  padding: 20px 0 0 0;
+}
+
+.btnreferencejavascript {
+  color: black;
+  padding: 12px 20px;
+  width: 213px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  border-radius: 38px;
+  text-align: center;
+  background-color: rgb(236, 241, 241);
+  margin: auto;
+}
+
+/* code for python starts here */
+
+.python {
+  position: relative;
+  bottom: 30px;
+  width: 100%;
+  margin: auto;
+  background-color: azure;
+  color: #282a35;
+  height: 500px;
+}
+
+.pythoncontent {
+  width: 50%;
+  margin: auto;
+}
+
+.btnreferencejavascripti {
+  color: white;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  border-radius: 38px;
+  text-align: center;
+  background-color: #282a35;
+  margin: auto;
+}
+
+.btnreferencepython {
+  color: white;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  border-radius: 38px;
+  background-color: #282a35;
+  margin: auto;
+}
+
+/* sql codes starts here*/
+
+.sqlheader {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.sqlanguage {
+  padding: 0 0 20px 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.sql {
+  position: relative;
+  bottom: 30px;
+  padding-top: 10px;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(47, 248, 248);
+}
+.sqlcontent {
+  width: 50%;
+  margin: auto;
+}
+
+/* php codes start here */
+.php {
+  border-radius: 6px;
+  width: 100%;
+  height: 280px;
+  background-color: rgb(220, 167, 177);
+  padding: 10px auto 10px auto;
+}
+
+.phpcontent {
+  width: 50%;
+  margin: auto;
+}
+
+.sqlanguage {
+  padding: 20px 0 10px 0;
+  text-align: center;
+  padding-top: 0;
+}
+
+/*jQuery codes starts here*/
+
+.jquery {
+  border-radius: 6px;
+  width: 100%;
+  height: 280px;
+  background-color: rgb(238, 238, 106);
+  padding: 10px auto 10px auto;
+  margin-top: 25px;
+}
+
+.jquerycontent {
+  width: 50%;
+  margin: auto;
+}
+
+/* java code starts here */
+.javalanguage {
+  border-radius: 6px;
+  width: 100%;
+  background-color: azure;
+  color: #282a35;
+  height: 250px;
+  margin-top: 20px;
+}
+
+/* C++ code starts here */
+
+.cdiv {
+  border-radius: 6px;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(189, 237, 237);
+  color: #282a35;
+  margin-top: 20px;
+}
+
+/* bootstrap code starts here */
+
+.bootstrap {
+  border-radius: 6px;
+  width: 100%;
+  height: 280px;
+  background-color: rgb(247, 253, 253);
+  margin-top: 20px;
+}
+
+.bootstrapbtn {
+  color: white;
+  padding: 12px 20px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  border-radius: 38px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 20px auto;
+  background-color: #282a35;
+}
+
+.blink {
+  display: block;
+  padding: 10px;
+  width: 35%;
+  color: white;
+  margin: 10px auto;
+  background-color: #282a35;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 38px;
+}
+
+@media only screen and (min-width: 600px) {
+  .blink {
+    width: 10%;
+  }
+}
+
+/* code for c starts here */
+
+.clink {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  color: #282a35;
+  padding: 30px;
+  border-radius: 6px;
+  width: 100%;
+  margin: 20px auto;
+
+  background-color: rgb(238, 238, 106);
+}
+
+.clinki {
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  color: #282a35;
+  padding: 30px;
+  border-radius: 6px;
+  width: 100%;
+  margin: 40px auto 20px auto;
+  background-color: rgb(220, 167, 177);
+}
+
+.rlink {
+  text-decoration: none;
+  display: inline-block;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  width: 49%;
+  border-radius: 6px;
+  margin-right: 3px;
+  background-color: rgb(247, 253, 253);
+  color: #282a35;
+  display: inline-block;
+}
+
+.kotlin {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 49%;
+  background-color: powderblue;
+  color: #282a35;
+  display: inline-block;
+}
+
+.node {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  float: left;
+  display: inline;
+  box-sizing: border-box;
+  width: 49%;
+  margin-top: 20px;
+  background-color: rgb(60, 200, 219);
+  color: #282a35;
+  display: inline-block;
+}
+
+.react {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 49%;
+  margin-top: 20px;
+  color: black;
+  background-color: rgb(220, 167, 177);
+  display: inline-block;
+}
+
+.json {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 49%;
+  margin-top: 20px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  display: inline-block;
+}
+
+.angula {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 49%;
+  margin-top: 20px;
+  color: #282a35;
+  background-color: rgb(247, 253, 253);
+  display: inline-block;
+}
+
+.excel {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 99%;
+  clear: both;
+  margin-top: 50px;
+  color: #282a35;
+  background-color: rgb(60, 200, 219);
+}
+
+.googlesheet {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 99%;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  display: block;
+}
+
+.machine-learning {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  font-size: 18px;
+  display: inline;
+  box-sizing: border-box;
+  width: 99%;
+  margin-top: 20px;
+  color: #282a35;
+  background-color: rgb(220, 167, 177);
+  display: block;
+}
+
+.artificial-intelligence {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 99%;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #282a35;
+  background-color: rgb(247, 253, 253);
+  display: block;
+}
+
+.data-science {
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+  margin-right: 3px;
+  display: inline;
+  box-sizing: border-box;
+  width: 99%;
+  font-size: 18px;
+  margin: 20px auto;
+
+  color: #282a35;
+  background-color: powderblue;
+  display: block;
+}
+
+.code-editordiv {
+  background-color: #f1f1f1;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+.code-editor {
+  margin-top: 20px;
+  text-align: center;
+  color: #282a35;
+  font-size: 49px;
+  margin-bottom: 0;
+}
+
+.editorparagraph {
+  margin-top: 20px;
+  text-align: center;
+  color: #282a35;
+  width: 80%;
+  margin: auto;
+  line-height: 2;
+}
+.frontendbtn {
+  padding: 10px;
+  color: #f1f1f1;
+  background-color: #282a35;
+  text-decoration: none;
+  border-radius: 6px;
+  display: block;
+  margin: 40px auto 10px auto;
+  box-sizing: border-box;
+  width: 49%;
+}
+
+.backendbtn {
+  padding: 10px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  text-decoration: none;
+  border-radius: 6px;
+  display: block;
+  margin: 15px auto 5px auto;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+/* footer code starts here */
+
+.footer {
+  margin: 200px;
+}
+
+.courses {
+  padding: 5px;
+  background-color: wheat;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+  width: 100%;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 5px !important;
+  width: 50%;
+  margin: auto;
+}
+
+.item {
+  padding: 5px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 120px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.spaces {
+  padding: 5px;
+  background-color: #f1f1f1;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 16px;
+}
+.foot {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.footcontent {
+  float: left;
+  width: 100%;
+}
+
+/* grid layout starts here */
+
+.grid-container2 {
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.item2 {
+  padding: 40px;
+  background-color: rgb(247, 253, 253);
+  color: #282a35;
+  font-size: 16px;
+  border-radius: 6px;
+  width: 47%;
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 1.5em;
+
+  box-sizing: border-box;
+
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.item3 {
+  padding: 40px;
+  background-color: rgb(60, 200, 219);
+  color: #282a35;
+  border-radius: 6px;
+  width: 47%;
+  text-align: center;
+  margin-bottom: 1.5em;
+  float: left;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* make grid layout responsive */
+@media screen and (max-width: 600px) {
+  .item2 {
+    width: 100%;
+    float: none;
+  }
+
+  .item3 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item2 {
+    flex: 50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .item2 {
+  }
+}
+
+.item3 {
+  padding: 40px;
+  background-color: rgb(60, 200, 219);
+  color: #282a35;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.item4 {
+  padding: 40px;
+  color: black;
+  background-color: rgb(220, 167, 177);
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.item5 {
+  padding: 40px;
+  background-color: powderblue;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.item5 {
+  padding: 40px;
+  color: #282a35;
+  font-size: 16px;
+  margin-right: 10px;
+  color: black;
+  background-color: rgb(220, 167, 177);
+  text-decoration: none;
+}
+
+.item6 {
+  padding: 40px;
+  font-size: 16px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  margin-right: 0;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.item7 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+  background-color: rgb(247, 253, 253);
+}
+.item8 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+.item9 {
+  padding: 40px;
+  color: #282a35;
+  background-color: #3498db;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item10 {
+  padding: 40px;
+  background-color: rgb(220, 167, 177);
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item11 {
+  padding: 40px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item12 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+  background-color: rgb(247, 253, 253);
+}
+
+.item7 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+  background-color: rgb(247, 253, 253);
+}
+
+.col-3 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 25%;
+  text-decoration: none;
+}
+
+.item14 {
+  padding: 40px;
+  color: #282a35;
+  background-color: #3498db;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item15 {
+  padding: 40px;
+  background-color: rgb(220, 167, 177);
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item16 {
+  padding: 40px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item17 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+  background-color: rgb(247, 253, 253);
+}
+
+.item18 {
+  padding: 40px;
+  background-color: #3498db;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item19 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 25%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.item20 {
+  padding: 40px;
+  background-color: powderblue;
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item21 {
+  padding: 40px;
+  color: #282a35;
+  background-color: rgb(238, 238, 106);
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.item22 {
+  padding: 40px;
+  background-color: rgb(220, 167, 177);
+  color: #282a35;
+  border-radius: 6px;
+  margin: 0;
+  width: 50%;
+  text-decoration: none;
+}
+
+.faicons {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+#githubicon {
+  margin: 0 50px;
+}
+
+.footerparagraph {
+  text-align: center;
+  align-items: center;
+  color: #f1f1f1;
+  display: block;
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  justify-content: center;
+}
+
+#tumbsup {
+  text-align: center;
+  height: 70px;
+  width: 10%;
+  margin: auto;
+  padding: 20px;
+}
