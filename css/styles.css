@@ -1006,7 +1006,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: 70%;
-  margin: auto;
+  clear:both;
+  margin: 15px auto;
 }
 #githubicon {
   margin: 0 50px;
