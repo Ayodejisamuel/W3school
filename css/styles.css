@@ -223,9 +223,8 @@ a:hover {
   text-align: center;
   width: 100%;
   margin: auto;
-  padding-top: 10px;
-  line-height: 1.5;
-  padding: 20px 0 0 0;
+  margin-top:20px;
+  
 }
 
 .btnreferencejavascript {
@@ -286,8 +285,18 @@ a:hover {
 /* sql codes starts here*/
 
 .sqlheader {
-  padding: 20px 0 0 0;
   text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top:20px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top:20px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top:20px;
 }
 
 .sqlanguage {
@@ -319,7 +328,7 @@ a:hover {
 }
 
 .phpcontent {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -341,7 +350,7 @@ a:hover {
 }
 
 .jquerycontent {
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -369,11 +378,12 @@ a:hover {
 /* bootstrap code starts here */
 
 .bootstrap {
-  border-radius: 6px;
+  text-align: center;
   width: 100%;
-  height: 280px;
-  background-color: rgb(247, 253, 253);
-  margin-top: 20px;
+  margin: auto;
+  margin: auto;
+  padding-top: px;
+  line-height: 1.5;
 }
 
 .bootstrapbtn {
