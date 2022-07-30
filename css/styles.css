@@ -227,8 +227,6 @@ a:hover {
   margin: auto;
   margin-top:50px;
   margin-bottom:10px;
-  
-  
 }
 
 .btnreferencejavascript {
@@ -311,10 +309,13 @@ a:hover {
   height: 500px;
   background-color: rgb(47, 248, 248);
 }
+
+
 .sqlcontent {
   width: 100%;
   margin: auto;
 }
+
 
 /* php codes start here */
 .php {
@@ -609,7 +610,6 @@ a:hover {
   width: 99%;
   font-size: 18px;
   margin: 20px auto;
-
   color: #282a35;
   background-color: powderblue;
   display: block;
@@ -739,9 +739,7 @@ a:hover {
   float: left;
   margin-right: 2em;
   margin-bottom: 1.5em;
-
   box-sizing: border-box;
-
   display: block;
   text-align: center;
   text-decoration: none;
@@ -781,6 +779,14 @@ a:hover {
 
 @media screen and (min-width: 700px) {
   .item2 {
+  }
+  
+    p {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 65px ;
   }
 }
 
