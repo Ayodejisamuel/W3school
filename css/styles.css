@@ -38,7 +38,7 @@ p {
   text-align: center;
   line-height: 1.5;
   margin: auto;
-  padding: 10px;
+  padding: 10px auto;
   font-size: 50px;
   color: whitesmoke;
 }
@@ -68,7 +68,7 @@ input[type="search"] {
   border-radius: 4px;
   box-sizing: border-box;
   margin: auto;
-  padding: 10px;
+  padding: 10px auto;
 }
 
 input[type="search"]:hover {
@@ -103,7 +103,7 @@ a:hover {
 }
 
 .htmlcontent {
-  padding: 30px;
+  padding: 30px auto;
   align-items: center;
   margin: 30px auto;
   width: 50%;
@@ -170,7 +170,7 @@ a:hover {
 }
 
 .btndiv {
-  margin: 20px;
+  margin: 20px auto;
 }
 
 /* CSS CODE STARTS HERE*/
@@ -203,7 +203,6 @@ a:hover {
 /* Javascript Code starts here*/
 
 .javascript {
-  position: relative;
   bottom: 30px;
   height: 500px;
   width: 50%;
@@ -219,7 +218,7 @@ a:hover {
   margin: auto;
   padding-top: px;
   line-height: 1.5;
-  padding: 0px 20px;
+ 
 }
 
 .javalan {
