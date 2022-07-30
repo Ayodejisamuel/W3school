@@ -182,7 +182,7 @@ a:hover {
 .section {
   bottom: 30px;
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: rgb(238, 238, 106);
 }
 
@@ -203,7 +203,7 @@ a:hover {
 
 .javascript {
   bottom: 30px;
-  height: 500px;
+  height: 400px;
   width: 100%;
   margin: auto;
   background-color: #282a35;
@@ -252,7 +252,7 @@ a:hover {
   margin: auto;
   background-color: azure;
   color: #282a35;
-  height: 500px;
+  height: 400px;
 }
 
 .pythoncontent {
@@ -307,7 +307,7 @@ a:hover {
   bottom: 30px;
   padding-top: 10px;
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-color: rgb(47, 248, 248);
 }
 .sqlcontent {
@@ -319,7 +319,7 @@ a:hover {
 .php {
   border-radius: 6px;
   width: 100%;
-  height: 280px;
+  height: 250px;
   background-color: rgb(220, 167, 177);
   padding: 10px auto 10px auto;
 }
@@ -340,7 +340,7 @@ a:hover {
 .jquery {
   border-radius: 6px;
   width: 100%;
-  height: 280px;
+  height: 250px;
   background-color: rgb(238, 238, 106);
   padding: 10px auto 10px auto;
   margin-top: 25px;
@@ -377,7 +377,7 @@ a:hover {
 .bootstrap {
  border-radius: 6px;
   width: 100%;
-  height: 280px;
+  height: 250px;
   background-color: rgb(247, 253, 253);
   margin-top: 20px;
 }
