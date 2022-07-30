@@ -65,7 +65,8 @@ input[type="search"] {
 
 .searchbox {
   text-align: center;
-  border-radius: 4px;
+  border-radius: 5px;
+  padding:12px 16px;
   box-sizing: border-box;
   margin: auto;
   padding: 10px auto;
@@ -378,12 +379,11 @@ a:hover {
 /* bootstrap code starts here */
 
 .bootstrap {
-  text-align: center;
+ border-radius: 6px;
   width: 100%;
-  margin: auto;
-  margin: auto;
-  padding-top: px;
-  line-height: 1.5;
+  height: 280px;
+  background-color: rgb(247, 253, 253);
+  margin-top: 20px;
 }
 
 .bootstrapbtn {
