@@ -790,6 +790,11 @@ a:hover {
   }
 }
 
+.grid-container2 a {
+  font-size:29px;
+}
+
+
 .item3 {
   padding: 40px;
   background-color: rgb(60, 200, 219);
