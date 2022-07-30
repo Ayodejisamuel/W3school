@@ -3,7 +3,8 @@
 body {
   box-sizing: borderbox;
   background-color: #282a35 !important;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 }
 
 * {
@@ -35,7 +36,7 @@ p {
 .learn {
   width: 100%;
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
   margin: auto;
   padding: 10px;
   font-size: 50px;
@@ -44,7 +45,7 @@ p {
 
 .with {
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
   color: rgb(247, 175, 116);
   width: 100%;
   font-size: 19px;
@@ -217,7 +218,7 @@ a:hover {
   margin: auto;
   margin: auto;
   padding-top: px;
-  line-height: 2;
+  line-height: 1.5;
   padding: 0px 20px;
 }
 
