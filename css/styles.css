@@ -1,10 +1,9 @@
-/** @format */
+ /** @format */
 
 body {
   box-sizing: borderbox;
   background-color: #282a35 !important;
-  font-family: 'Source Sans Pro', sans-serif;
-}
+  font-family: "Source Sans Pro" sans-serif;
 }
 
 * {
@@ -13,11 +12,15 @@ body {
 
 h1 {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 p {
   font-size: 19px;
+}
+
+.learncode {
+  width: 100%;
 }
 
 .main {
@@ -27,7 +30,7 @@ p {
 .learntocode {
   height: 500px;
   margin: auto;
-  width: 70%;
+  width: 50%;
   background-color: #282a35 !important;
 }
 .code {
@@ -38,7 +41,7 @@ p {
   text-align: center;
   line-height: 1.5;
   margin: auto;
-  padding: 10px auto;
+  padding: 10px;
   font-size: 50px;
   color: whitesmoke;
 }
@@ -46,7 +49,7 @@ p {
 .with {
   text-align: center;
   line-height: 1.5;
-  color: rgb(247, 175, 116);
+  color: #ffc0c7;
   width: 100%;
   font-size: 19px;
   margin: auto;
@@ -65,20 +68,20 @@ input[type="search"] {
 
 .searchbox {
   text-align: center;
-  border-radius: 5px;
-  padding:12px 16px;
+  border-radius: 4px;
   box-sizing: border-box;
   margin: auto;
-  padding: 10px auto;
+  padding: 10px;
 }
 
 input[type="search"]:hover {
-  color: blue;
+  color: #04aa6d;
 }
 
 .notsure {
   color: white;
-  margin: auto;
+  align-content: center;
+
   width: 100%;
   margin-bottom: 30px;
   text-align: center;
@@ -96,16 +99,16 @@ a:hover {
 /* Code for html div */
 
 .html {
-  background-color: powderblue;
+  background-color: #d9eee1 !important;
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 600px;
 }
 
 .htmlcontent {
   padding: 30px auto;
   align-items: center;
-  margin: 30px auto;
+  margin: 150px auto;
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -116,7 +119,7 @@ a:hover {
 }
 
 .btnhtml {
-  color: whitesmoke;
+  color: white;
   padding: 12px 20px;
   width: 200px;
   text-decoration: none;
@@ -124,12 +127,12 @@ a:hover {
   border-radius: 38px;
   font-size: 18px;
   text-align: center;
-  background-color: rgb(10, 107, 13);
+  background-color: #04aa6d;
   margin: 5px auto;
 }
 
 .btnvideo {
-  color: #282a35;
+  color: black !important;
   padding: 12px 20px;
   width: 200px;
   font-size: 18px;
@@ -137,7 +140,7 @@ a:hover {
   display: block;
   border-radius: 38px;
   text-align: center;
-  background-color: rgb(238, 238, 106);
+  background-color: #fff4a3 !important;
   margin: auto;
 }
 
@@ -156,14 +159,14 @@ a:hover {
 }
 
 .btncertificate {
-  color: #282a35;
+  color: black !important;
   padding: 12px 20px;
   width: 200px;
   text-decoration: none;
   display: block;
   border-radius: 38px;
   text-align: center;
-  background-color: rgb(220, 167, 177);
+  background-color: #ffc0c7 !important;
   margin: auto;
   font-size: 18px;
   margin-top: 0;
@@ -176,36 +179,36 @@ a:hover {
 /* CSS CODE STARTS HERE*/
 
 .cssheader {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .section {
-  position:relative;
-  bottom: 60px;
+  position: relative;
+  bottom: 50px;
   width: 100%;
-  height: 500px;
-  background-color: rgb(238, 238, 106);
+  height: 400px;
+  background-color: #fff4a3 !important;
 }
 
 .csscontent {
-  padding: 30px;
+  padding: 30px auto;
   align-items: center;
-  margin: 30px auto;
+  margin: auto;
   width: 100%;
   justify-content: center;
   text-align: center;
 }
 
 .csslanguage {
+  margin: auto;
   width: 100%;
 }
 
 /* Javascript Code starts here*/
 
 .javascript {
-  bottom: 30px;
   height: 400px;
-  width: 100%;
+  width: 50%;
   margin: auto;
   background-color: #282a35;
   color: white;
@@ -213,49 +216,46 @@ a:hover {
 
 .java {
   text-align: center;
-  width: 95%;
-  margin: auto;
+  width: 100%;
   margin: auto;
   padding-top: px;
   line-height: 1.5;
- 
 }
 
 .javalan {
   text-align: center;
   width: 100%;
   margin: auto;
-  margin-top:50px;
-  margin-bottom:10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .btnreferencejavascript {
-  color: black;
+  color: #282a35;
   padding: 12px 20px;
   width: 213px;
   text-decoration: none;
   display: block;
   font-size: 18px;
-  border-radius: 38px;
+  border-radius: 25px;
   text-align: center;
-  background-color: rgb(236, 241, 241);
+  background-color: white;
   margin: auto;
 }
 
 /* code for python starts here */
 
 .python {
-  position: relative;
   bottom: 30px;
   width: 100%;
   margin: auto;
-  background-color: azure;
+  background-color: #f3ecea !important;
   color: #282a35;
   height: 400px;
 }
 
 .pythoncontent {
-  width: 100%;
+  width: 50%;
   margin: auto;
 }
 
@@ -290,9 +290,8 @@ a:hover {
   text-align: center;
   width: 100%;
   margin: auto;
-  margin-top:50px;
-  margin-botttom:10px;
-  
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .sqlanguage {
@@ -302,27 +301,25 @@ a:hover {
 }
 
 .sql {
-  position: relative;
   bottom: 30px;
   padding-top: 10px;
   width: 100%;
-  height: 500px;
-  background-color: rgb(47, 248, 248);
+  height: 400px;
+  color: black !important;
+  background-color: #96d4d4 !important;
 }
-
-
 .sqlcontent {
   width: 100%;
   margin: auto;
 }
 
-
 /* php codes start here */
 .php {
   border-radius: 6px;
   width: 100%;
-  height: 250px;
-  background-color: rgb(220, 167, 177);
+  height: 280px;
+  color: black;
+  background-color: #ffc0c7;
   padding: 10px auto 10px auto;
 }
 
@@ -342,9 +339,9 @@ a:hover {
 .jquery {
   border-radius: 6px;
   width: 100%;
-  height: 250px;
-  background-color: rgb(238, 238, 106);
-  padding: 10px auto 10px auto;
+  height: 280px;
+  background-color: #fff4a3 !important;
+  padding: 10px auto;
   margin-top: 25px;
 }
 
@@ -357,8 +354,8 @@ a:hover {
 .javalanguage {
   border-radius: 6px;
   width: 100%;
-  background-color: azure;
   color: #282a35;
+  background-color: #f3ecea;
   height: 250px;
   margin-top: 20px;
 }
@@ -369,7 +366,8 @@ a:hover {
   border-radius: 6px;
   width: 100%;
   height: 250px;
-  background-color: rgb(189, 237, 237);
+  background-color: #d9eee1 !important;
+
   color: #282a35;
   margin-top: 20px;
 }
@@ -377,9 +375,9 @@ a:hover {
 /* bootstrap code starts here */
 
 .bootstrap {
- border-radius: 6px;
+  border-radius: 6px;
   width: 100%;
-  height: 250px;
+  height: 280px;
   background-color: rgb(247, 253, 253);
   margin-top: 20px;
 }
@@ -610,6 +608,7 @@ a:hover {
   width: 99%;
   font-size: 18px;
   margin: 20px auto;
+
   color: #282a35;
   background-color: powderblue;
   display: block;
@@ -739,7 +738,9 @@ a:hover {
   float: left;
   margin-right: 2em;
   margin-bottom: 1.5em;
+
   box-sizing: border-box;
+
   display: block;
   text-align: center;
   text-decoration: none;
@@ -775,25 +776,25 @@ a:hover {
     flex: 50%;
     float: left;
   }
+  .item3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
 }
 
 @media screen and (min-width: 768px) {
   .item2 {
   }
-  
-    p {
+
+  p {
     font-size: 24px;
   }
 
   h1 {
-    font-size: 65px ;
+    font-size: 65px;
   }
 }
-
-.grid-container2 a {
-  font-size:29px;
-}
-
 
 .item3 {
   padding: 40px;
@@ -1022,9 +1023,10 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: 70%;
-  clear:both;
+  clear: both;
   margin: 15px auto;
 }
+
 #githubicon {
   margin: 0 50px;
 }
@@ -1046,4 +1048,7 @@ a:hover {
   width: 10%;
   margin: auto;
   padding: 20px;
+}
+.grid-container2 a {
+  font-size: 29px;
 }
