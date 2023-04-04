@@ -7,12 +7,14 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 h1 {
-  font-size: 60px;
-  font-weight: 700px;
+  font-size: 70px;
+  font-weight: 700;
+  margin: 2px 0 -20px 0 !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 p {
@@ -25,7 +27,7 @@ p {
 
 .main {
   width: 120%;
-  background-color: rgb(51, 49, 49);
+  background-color: #282a35;
 }
 .learntocode {
   height: 500px;
@@ -33,39 +35,49 @@ p {
   width: 50%;
   background-color: #282a35 !important;
 }
-.code {
-  padding-top: 7px;
-}
+
 .learn {
-  width: 100%;
+  width: 80%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
   padding: 10px;
   font-size: 50px;
-  color: whitesmoke;
+  color: white;
 }
 
 .with {
+  width: 80%;
   text-align: center;
   line-height: 1.5;
   color: #ffc0c7;
-  width: 100%;
-  font-size: 19px;
-  margin: auto;
-}
 
+  margin: auto;
+  font-size: 19px;
+}
+.learndiv {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 input[type="search"] {
-  width: 100%;
+  width: 80%;
   margin: auto;
   margin-bottom: 20px;
   box-sizing: border-box;
   text-align: center;
+  align-items: center;
   border-radius: 18px;
   padding-right: 15%;
   box-sizing: border-box;
 }
-
+@media only screen and (min-width: 600px) {
+  input[type="search"] {
+    width: 40%;
+ 
+  }
+}
 .searchbox {
   text-align: center;
   border-radius: 4px;
