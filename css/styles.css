@@ -75,7 +75,7 @@ input[type="search"] {
 @media only screen and (min-width: 600px) {
   input[type="search"] {
     width: 40%;
- 
+    
   }
 }
 .searchbox {
