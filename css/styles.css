@@ -7,7 +7,7 @@ body {
 }
 
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 h1 {
