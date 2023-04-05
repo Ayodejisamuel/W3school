@@ -1,24 +1,38 @@
  /** @format */
 
 body {
+  font-weight: 700;
   box-sizing: borderbox;
+  padding: 0;
+  margin: 0;
   background-color: #282a35 !important;
   font-family: "Source Sans Pro" sans-serif;
 }
 
 * {
+  font-weight: 200;
+
   box-sizing: border-box;
+  font-family: "Source Sans Pro" sans-serif;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 700;
   margin: 2px 0 -20px 0 !important;
   font-family: "Source Sans Pro", sans-serif;
 }
 
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
 p {
   font-size: 19px;
+  font-weight: 700;
+  padding: 20px;
 }
 
 .learncode {
@@ -32,6 +46,7 @@ p {
 .learntocode {
   height: 500px;
   margin: auto;
+
   width: 50%;
   background-color: #282a35 !important;
 }
@@ -42,8 +57,13 @@ p {
   line-height: 1.5;
   margin: auto;
   padding: 10px;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
+}
+
+.html {
+  width: 100%;
+  margin: auto;
 }
 
 .with {
@@ -75,7 +95,6 @@ input[type="search"] {
 @media only screen and (min-width: 600px) {
   input[type="search"] {
     width: 40%;
-    
   }
 }
 .searchbox {
@@ -114,7 +133,7 @@ a:hover {
   background-color: #d9eee1 !important;
   width: 100%;
   margin: auto;
-  height: 600px;
+  min-height: 550px;
 }
 
 .htmlcontent {
@@ -127,7 +146,14 @@ a:hover {
 }
 .languagehtml {
   width: 100%;
+
+  padding-top: 20px;
   margin: auto;
+}
+
+.headinghtml {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .btnhtml {
@@ -136,17 +162,22 @@ a:hover {
   width: 200px;
   text-decoration: none;
   display: block;
+  cursor: pointer;
   border-radius: 38px;
+  font-weight: 700;
   font-size: 18px;
+  font-family: "Source Sans Pro" sans-serif;
   text-align: center;
   background-color: #04aa6d;
   margin: 5px auto;
 }
 
 .btnvideo {
+  font-weight: 700;
   color: black !important;
   padding: 12px 20px;
   width: 200px;
+  font-family: "Source Sans Pro" sans-serif;
   font-size: 18px;
   text-decoration: none;
   display: block;
@@ -158,6 +189,8 @@ a:hover {
 
 .btnreference {
   color: white;
+  font-family: "Source Sans Pro" sans-serif;
+  font-weight: 700;
   padding: 12px 20px;
   width: 200px;
   text-decoration: none;
@@ -165,6 +198,7 @@ a:hover {
   border-radius: 38px;
   text-align: center;
   background-color: #282a35;
+  cursor: pointer;
   margin: auto;
   font-size: 18px;
   margin-top: 0;
@@ -173,10 +207,13 @@ a:hover {
 .btncertificate {
   color: black !important;
   padding: 12px 20px;
+  font-weight: 700;
   width: 200px;
   text-decoration: none;
   display: block;
+  font-family: "Source Sans Pro" sans-serif;
   border-radius: 38px;
+  cursor: pointer;
   text-align: center;
   background-color: #ffc0c7 !important;
   margin: auto;
@@ -197,9 +234,15 @@ a:hover {
 .section {
   position: relative;
   bottom: 50px;
+  padding: 0;
+  margin: 0;
   width: 100%;
-  height: 400px;
+
+  height: 450px;
   background-color: #fff4a3 !important;
+}
+.cssheader {
+  padding-top: 40px;
 }
 
 .csscontent {
@@ -212,7 +255,7 @@ a:hover {
 }
 
 .csslanguage {
-  margin: auto;
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -226,11 +269,19 @@ a:hover {
   color: white;
 }
 
-.java {
-  text-align: center;
+.javascriptcontent {
+  height: 400px;
   width: 100%;
   margin: auto;
-  padding-top: px;
+  background-color: #282a35;
+  color: white;
+}
+
+.javamessage {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
   line-height: 1.5;
 }
 
@@ -239,7 +290,7 @@ a:hover {
   width: 100%;
   margin: auto;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .btnreferencejavascript {
@@ -249,6 +300,7 @@ a:hover {
   text-decoration: none;
   display: block;
   font-size: 18px;
+  font-weight: 700;
   border-radius: 25px;
   text-align: center;
   background-color: white;
@@ -263,12 +315,16 @@ a:hover {
   margin: auto;
   background-color: #f3ecea !important;
   color: #282a35;
-  height: 400px;
+  height: 500px;
+}
+.pythonheader {
+  text-align: center;
+  padding-top: 40px;
 }
 
-.pythoncontent {
-  width: 50%;
-  margin: auto;
+.pythonlan {
+  width: 100%;
+  text-align: center;
 }
 
 .btnreferencejavascripti {
@@ -302,21 +358,21 @@ a:hover {
   text-align: center;
   width: 100%;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  padding: 20px;
 }
 
 .sqlanguage {
-  padding: 0 0 20px 0;
+  width: 100%;
   text-align: center;
-  margin-top: 0;
+  padding: 20px;
 }
 
 .sql {
   bottom: 30px;
   padding-top: 10px;
+  margin-bottom: 50px;
   width: 100%;
-  height: 400px;
+  height: 500px;
   color: black !important;
   background-color: #96d4d4 !important;
 }
@@ -490,7 +546,7 @@ a:hover {
   padding: 30px;
   text-align: center;
   margin-right: 3px;
-  float: left;
+  /* float: left; */
   display: inline;
   box-sizing: border-box;
   width: 49%;
@@ -746,11 +802,12 @@ a:hover {
   color: #282a35;
   font-size: 16px;
   border-radius: 6px;
-  width: 100%;
+  width: 47%;
   float: left;
   margin-right: 2em;
   margin-bottom: 1.5em;
 
+  width: 100%;
   box-sizing: border-box;
 
   display: block;
@@ -763,36 +820,60 @@ a:hover {
   background-color: rgb(60, 200, 219);
   color: #282a35;
   border-radius: 6px;
- 
+  width: 47%;
   text-align: center;
   margin-bottom: 1.5em;
   float: left;
- width:100%
+
+  width: 100%;
   font-size: 16px;
   text-decoration: none;
 }
 
-/* make grid layout responsive */
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
   .item2 {
-    width: 49%;
+    flex-direction: column;
+    flex-basis: 2;
+
+    float: left;
+  }
+
+  .item3 {
+    flex-direction: column;
+
+    float: left;
+  }
+}
+
+/* @media screen and (min-width: 480px) {
+  .item2 {
+    width: 100%;
     float: none;
   }
 
   .item3 {
-    width: 49%;
+    width: 100%;
+    float: none;
   }
 }
 
 @media screen and (max-width: 768px) {
   .item2 {
-    flex: 49%;
+    flex: 50%;
     float: left;
   }
   .item3 {
-    width: 49%;
+    width: 50%;
   }
 }
+
+
+
 @media screen and (max-width: 1000px) {
 }
 
@@ -807,7 +888,7 @@ a:hover {
   h1 {
     font-size: 65px;
   }
-}
+} */
 
 .item3 {
   padding: 40px;
