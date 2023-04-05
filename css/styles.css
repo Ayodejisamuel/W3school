@@ -774,7 +774,7 @@ a:hover {
 /* make grid layout responsive */
 @media screen and (max-width: 600px) {
   .item2 {
-    width: 100%;
+    width: 49%;
     float: none;
   }
 
