@@ -746,7 +746,7 @@ a:hover {
   color: #282a35;
   font-size: 16px;
   border-radius: 6px;
-  width: 47%;
+  width: 100%;
   float: left;
   margin-right: 2em;
   margin-bottom: 1.5em;
@@ -763,10 +763,11 @@ a:hover {
   background-color: rgb(60, 200, 219);
   color: #282a35;
   border-radius: 6px;
-  width: 47%;
+ 
   text-align: center;
   margin-bottom: 1.5em;
   float: left;
+ width:100%
   font-size: 16px;
   text-decoration: none;
 }
@@ -779,17 +780,17 @@ a:hover {
   }
 
   .item3 {
-    width: 100%;
+    width: 49%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .item2 {
-    flex: 50%;
+    flex: 49%;
     float: left;
   }
   .item3 {
-    width: 50%;
+    width: 49%;
   }
 }
 @media screen and (max-width: 1000px) {
