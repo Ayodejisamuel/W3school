@@ -832,20 +832,22 @@ a:hover {
 
 @media screen and (min-width: 600px) {
   .grid {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-  }
-  .item2 {
-    flex-direction: column;
-    flex-basis: 2;
-
     float: left;
+    width: 100%;
+  }
+  .itemm2 {
+    float: left;
+
+    display: block;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 49%;
   }
 
-  .item3 {
-    flex-direction: column;
-
+  .itemm3 {
+    padding-left: 50px;
+    width: 49%;
+    display: block;
     float: left;
   }
 }
