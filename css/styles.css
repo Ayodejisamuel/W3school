@@ -450,6 +450,7 @@ a:hover {
   color: #282a35;
   border-radius: 6px;
   display: block;
+
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
   text-align: center;
@@ -484,24 +485,27 @@ a:hover {
   width: 95%;
   margin: auto;
 }
+.cdivv {
+  display: grid;
+  gap: 20px;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
+  gap: 20px;
   width: 95%;
-  column-gap: 10px;
-  gap: 30px;
   margin: auto;
-  font-size: 30px;
-  font-weight: 500;
-  padding-bottom: 100px;
+  margin-top: 20px;
 }
 
 .grid2 {
   display: grid;
   grid-template-columns: 1fr;
   box-sizing: border-box;
-  column-gap: 10px;
+
   width: 95%;
   margin: auto;
   padding-top: 50px;
@@ -510,56 +514,71 @@ a:hover {
 @media screen and (min-width: 600px) {
   .grid2 {
     grid-template-columns: 1fr 1fr;
-    width: 90%;
-    column-gap: 49px;
+    width: 95%;
+    column-gap: 50px;
+    row-gap: 0px;
+    margin: auto;
+  }
+
+  .grid1 {
+    width: 95%;
+  }
+
+  .cdivv {
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+    column-gap: 50px;
+    width: 95%;
     margin: auto;
   }
 }
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 900px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     width: 90%;
-    column-gap: 49px;
+    column-gap: 100px;
+    row-gap: 40px;
+
     margin: auto;
+    margin-bottom: 100px;
+  }
+  .cdivv {
+    margin-top: 50px;
+    column-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
   }
 
   div a {
     text-decoration: none;
   }
 
-  .c {
-    grid-template-columns: 1fr 1fr;
-    width: 90%;
-    column-gap: 100px;
-    box-sizing: border-box;
-    margin: auto;
-  }
   .grid1 {
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
     width: 90%;
     box-sizing: border-box;
     margin: auto;
+    margin-top: 40px;
   }
 
   .grid2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 100px;
-    row-gap: 160px;
+    row-gap: 10px;
+    width: 90%;
     box-sizing: border-box;
   }
 }
+
 /* C++ code starts here */
 
 .c {
   display: grid;
-  padding-bottom: 50px;
-  grid-template-columns: 1fr;
-  gap: 49px;
-  padding-top: 50px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
-    rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+  padding-bottom: 10px;
+  column-gap: 10px;
+  padding-top: 10px;
   font-weight: 500;
   width: 95%;
   margin: auto;
