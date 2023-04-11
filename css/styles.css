@@ -121,6 +121,8 @@ input[type="search"]:hover {
 a {
   color: white;
   text-decoration: underline;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
 }
 
 a:hover {
@@ -456,8 +458,8 @@ a:hover {
   text-align: center;
   margin-bottom: 1.5em;
 
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 25px;
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -598,7 +600,7 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 500;
+  font-weight: 700;
   font-size: 30px;
 
   background-color: #fff4a3 !important;
@@ -780,7 +782,7 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 
   background-color: #96d4d4 !important;
@@ -800,7 +802,7 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 
   background-color: #fff4a3 !important;
@@ -820,7 +822,7 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 
   background-color: #ffc0c7 !important;
@@ -840,7 +842,7 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 500;
+  font-weight: 600;
   font-size: 30px;
 
   background-color: #f3ecea !important;
