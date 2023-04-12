@@ -34,19 +34,19 @@
   font-size: 15px;
   color: white;
   top: 5px;
-  left: 150px;
+  left: 100px;
 }
 .btnsignin {
   background-color: #45a049 !important;
   margin: auto;
-  z-index: 5;
-  border-radius: 15px;
-  padding: 5px;
+
+  border-radius: 20px;
+  padding: 12px;
   position: relative;
   font-size: 15px;
   color: white;
   top: 5px;
-  left: 150px;
+  left: 90px;
 }
 .topbtn {
   color: #282a35;
@@ -1426,5 +1426,5 @@ a:hover {
   padding: 20px;
 }
 .grid-container2 a {
-  font-size: 28px;
+  font-size: 29px;
 }
