@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>W3SCHOOLS HOME PAGE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css\styles.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
@@ -17,14 +18,22 @@
 </div>
   <br>
 
-    <div class="searchbox"> <br><br>
+  <div class="search-container">
+    <form action="/search">
+      <input type="text" placeholder="Search our tutorials e.g HTML, CSS" name="q">
+      <button title="search" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+
+    <!-- <div class="searchbox"> <br><br>
       <form action="https://www.google.com" method="get">
 
         <input class="searchbox" type="search" name="mysearch" placeholder="Search our tutorials, e.g HTML">
 
 
       </form>
-    </div>
+    </div> -->
 
     <div class="notsure">
       <a href="https://www.w3schools.com/where_to_start.asp" target="_self" title="learn More">
@@ -181,8 +190,8 @@
     </div>
   </div>
 
-  <div class="php" style="background-color: #96d4d4;">
-    <div class="phpcontent"  style="background-color: #96d4d4;">
+  <div class="wdiv" style="background-color: #96d4d4;">
+    <div class="jquerycontent"  style="background-color: #96d4d4;">
       <h1 class="sqlheader">W3.CSS</h1>
       <p class="sqlanguage">A css framework for fast and better responsive website</p>
 
