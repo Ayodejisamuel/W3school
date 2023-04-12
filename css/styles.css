@@ -1,5 +1,67 @@
  /** @format */
 
+.navdiv {
+  background-color: white;
+}
+
+.firstdiv {
+  display: flex;
+}
+
+.btnMenu {
+  color: black;
+  padding: 6px 10px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Source Sans Pro" sans-serif;
+  text-align: center;
+
+  margin: 5px auto;
+}
+
+.btnsignup {
+  background-color: #45a049 !important;
+  margin: auto;
+  z-index: 5;
+  border-radius: 15px;
+  padding: 5px;
+  position: relative;
+  font-size: 15px;
+  color: white;
+  top: 5px;
+  left: 150px;
+}
+.btnsignin {
+  background-color: #45a049 !important;
+  margin: auto;
+  z-index: 5;
+  border-radius: 15px;
+  padding: 5px;
+  position: relative;
+  font-size: 15px;
+  color: white;
+  top: 5px;
+  left: 150px;
+}
+.topbtn {
+  color: #282a35;
+  padding: 12px 12px;
+  width: 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+}
+
 body {
   font-weight: 700;
   box-sizing: border-box;
@@ -92,6 +154,7 @@ p {
   width: 100%;
   text-align: center;
   line-height: 1.5;
+  font-weight: 700;
   color: #ffc0c7;
   margin: auto;
   font-size: 19px;
