@@ -1,4 +1,4 @@
- /** @format */
+/** @format */
 
 body {
   font-weight: 700;
@@ -63,12 +63,22 @@ p {
   background-color: #282a35 !important;
 }
 
+.headinghtml {
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .learn {
   width: 80%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
   padding: 10px;
+  font-weight: 700;
+  font-size: 25px;
   font-size: 40px;
   color: white;
 }
@@ -282,6 +292,11 @@ a:hover {
 
 .cssheader {
   margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .section {
@@ -344,6 +359,11 @@ a:hover {
   margin: auto;
 
   margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .btnreferencejavascript {
@@ -373,6 +393,11 @@ a:hover {
 .pythonheader {
   text-align: center;
   padding-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .pythonlan {
@@ -412,6 +437,11 @@ a:hover {
   width: 100%;
   margin: auto;
   padding: 20px;
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .sqlanguage {
@@ -930,7 +960,12 @@ a:hover {
   margin-top: 20px;
   text-align: center;
   color: #282a35;
-  font-size: 49px;
+
+  font-size: 40px;
+  font-weight: 700;
+
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
   margin-bottom: 0;
 }
 
