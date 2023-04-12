@@ -19,20 +19,32 @@ body {
 h1 {
   font-size: 40px;
   font-weight: 700;
-  margin: 2px 0 -20px 0 !important;
+
+  margin-top: 30px !important;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 @media only screen and (min-width: 600px) {
   h1 {
-    font-size: 70px;
+    font-size: 40px;
+  }
+
+  .learn {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  .with {
+    width: 80%;
+    margin: auto;
+    text-align: center;
   }
 }
 
 p {
   font-size: 19px;
   font-weight: 700;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 .learncode {
@@ -283,7 +295,7 @@ a:hover {
   text-align: center;
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+
   line-height: 1.5;
 }
 
@@ -291,13 +303,13 @@ a:hover {
   text-align: center;
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+
   margin-bottom: 30px;
 }
 
 .btnreferencejavascript {
   color: #282a35;
-  padding: 12px 20px;
+  padding: 12px 12px;
   width: 213px;
   text-decoration: none;
   display: block;
@@ -459,7 +471,7 @@ a:hover {
   margin-bottom: 1.5em;
 
   font-weight: 600;
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -552,6 +564,10 @@ a:hover {
     width: 90%;
   }
 
+  h1 {
+    padding-top: 20px;
+  }
+
   div a {
     text-decoration: none;
   }
@@ -600,8 +616,8 @@ a:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 23px;
 
   background-color: #fff4a3 !important;
 }
@@ -614,8 +630,8 @@ a:hover {
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
-  font-weight: 500;
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 23px;
   box-sizing: border-box;
   width: 99%;
   border-radius: 6px;
@@ -783,7 +799,7 @@ a:hover {
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
   font-weight: 600;
-  font-size: 30px;
+  font-size: 23px;
 
   background-color: #96d4d4 !important;
 }
@@ -803,7 +819,7 @@ a:hover {
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
   font-weight: 600;
-  font-size: 30px;
+  font-size: 23px;
 
   background-color: #fff4a3 !important;
 }
@@ -823,7 +839,7 @@ a:hover {
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
   font-weight: 600;
-  font-size: 30px;
+  font-size: 23px;
 
   background-color: #ffc0c7 !important;
 }
@@ -843,7 +859,7 @@ a:hover {
     rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 
   font-weight: 600;
-  font-size: 30px;
+  font-size: 23px;
 
   background-color: #f3ecea !important;
 }
