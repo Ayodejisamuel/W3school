@@ -8,6 +8,11 @@
   display: flex;
 }
 
+.topdiv {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .btnMenu {
   color: black;
   padding: 6px 10px;
@@ -29,11 +34,11 @@
   margin: auto;
   z-index: 5;
   border-radius: 15px;
-  padding: 5px;
+  padding: 8px;
   position: relative;
   font-size: 15px;
   color: white;
-  top: 5px;
+  top: 7px;
   left: 100px;
 }
 .btnsignin {
@@ -45,8 +50,8 @@
   position: relative;
   font-size: 15px;
   color: white;
-  top: 5px;
-  left: 90px;
+  top: 8px;
+  left: 75px;
 }
 .topbtn {
   color: #282a35;
@@ -1426,5 +1431,5 @@ a:hover {
   padding: 20px;
 }
 .grid-container2 a {
-  font-size: 28px;
+  font-size: 29px;
 }
