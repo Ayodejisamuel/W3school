@@ -126,7 +126,7 @@ h1 {
   font-size: 40px;
   font-weight: 700;
 
-  margin-top: 30px !important;
+  margin-top: 60px !important;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -162,6 +162,7 @@ p {
   background-color: #282a35;
 }
 .learntocode {
+  padding-top: 30px;
   height: 500px;
   margin: auto;
 
@@ -182,6 +183,7 @@ p {
   text-align: center;
   line-height: 1.5;
   margin: auto;
+  padding-top: 30px;
   padding: 10px;
   font-weight: 700;
   font-size: 25px;
@@ -207,6 +209,7 @@ p {
 .learndiv {
   margin: auto;
   width: 80%;
+  position: relative;
   /* background-color: red; */
   align-items: center;
   text-align: center;
@@ -217,26 +220,32 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  width: 80%;
+  margin: auto;
 }
 
 input[type="text"] {
   padding: 10px 50px 10px 10px;
   border: none;
-  border-radius: 14px;
+  margin-top: 50px;
+  border-radius: 20px;
+  position: relative;
   font-size: 18px;
   font-family: "Source Sans Pro" sans-serif;
   background-color: #f1f1f1;
   width: 100%;
   box-sizing: border-box;
 }
+
 button[type="submit"] {
   background-color: #45a049;
   color: white;
   border: none;
-  border-radius: 1px 15px 15px 1px;
+  border-radius: 1px 20px 20px 1px;
   font-size: 18px;
   cursor: pointer;
   position: relative;
+  width: 70px;
   left: 133px;
   bottom: 47px;
   padding: 10px 17px;
@@ -708,9 +717,6 @@ a:hover {
     margin-bottom: 100px;
   }
 
-  .learndiv {
-    width: 100%;
-  }
   .cdivv {
     margin-top: 50px;
     column-gap: 100px;
