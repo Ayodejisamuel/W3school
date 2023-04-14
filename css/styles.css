@@ -33,25 +33,64 @@
   background-color: #45a049 !important;
   margin: auto;
   z-index: 5;
+  display: none;
   border-radius: 15px;
   padding: 8px;
   position: relative;
   font-size: 15px;
   color: white;
-  top: 7px;
-  left: 100px;
+  top: 5px;
 }
 .btnsignin {
   background-color: #45a049 !important;
   margin: auto;
 
-  border-radius: 20px;
-  padding: 12px;
+  border-radius: 15px;
+  padding: 8px;
+
   position: relative;
   font-size: 15px;
   color: white;
   top: 8px;
   left: 75px;
+}
+.btnwebsite {
+  color: #282a35;
+  margin: 5px 7px;
+  padding: 8px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 16px;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff4a3;
+}
+.btncert {
+  color: #282a35;
+  padding: 8px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px 7px;
+  background-color: #ffc0c7;
+}
+.btnupgrade {
+  color: #fff;
+  padding: 8px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 7px;
+  margin-left: 0px;
+  display: none;
+
+  border-radius: 20px;
+  text-align: center;
+  background-color: #9763f6;
 }
 .topbtn {
   color: #282a35;
@@ -160,6 +199,7 @@ p {
   text-align: center;
   line-height: 1.5;
   font-weight: 700;
+  margin-top: 30px;
   color: #ffc0c7;
   margin: auto;
   font-size: 19px;
@@ -176,7 +216,7 @@ p {
 .search-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 input[type="text"] {
@@ -684,7 +724,7 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 820px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     width: 90%;
@@ -699,6 +739,21 @@ a:hover {
     column-gap: 100px;
     grid-template-columns: 1fr 1fr;
     width: 90%;
+  }
+
+  .btnsignin {
+    position: relative;
+    left: 310px;
+    top: 15px;
+    box-sizing: border-box;
+    margin-right: 4px;
+  }
+
+  .btncert {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    left: 100px;
   }
 
   h1 {
@@ -724,6 +779,33 @@ a:hover {
     row-gap: 10px;
     width: 90%;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btnupgrade {
+    display: block;
+    position: relative;
+    left: 400px;
+  }
+
+  .btnwebsite {
+    display: block;
+    position: relative;
+    left: 400px;
+  }
+
+  .btncert {
+    display: block;
+    position: relative;
+    left: 400px;
+  }
+
+  .btnsignin {
+    display: block;
+    position: relative;
+    left: 900px;
+    top: 5px;
   }
 }
 
