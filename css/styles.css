@@ -215,6 +215,7 @@ p {
 
 .search-container {
   display: flex;
+  width: 100%;
   justify-content: center;
   margin-top: 50px;
 }
@@ -733,6 +734,10 @@ a:hover {
 
     margin: auto;
     margin-bottom: 100px;
+  }
+
+  .learndiv {
+    width: 100%;
   }
   .cdivv {
     margin-top: 50px;
