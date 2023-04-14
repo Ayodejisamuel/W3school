@@ -134,9 +134,11 @@ h1 {
   h1 {
     font-size: 40px;
   }
-
+input[type="text"]{
+ width:100%;
+ }
   .learn {
-    width: 60%;
+    width: 50%;
     margin: auto;
     text-align: center;
   }
@@ -179,7 +181,7 @@ p {
 }
 
 .learn {
-  width: 80%;
+  width: 50%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
@@ -236,7 +238,7 @@ input[type="text"] {
   margin: auto;
   font-family: "Source Sans Pro" sans-serif;
   background-color: #f1f1f1;
-  width: 100%;
+  width: 90%;
   box-sizing: border-box;
 }
 
