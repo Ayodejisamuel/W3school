@@ -181,7 +181,7 @@ p {
 }
 
 .learn {
-  width: 50%;
+  width: 80%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
@@ -214,7 +214,7 @@ p {
 }
 
 .with {
-  width: 80%;
+  width: 100%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
@@ -1629,5 +1629,5 @@ a:active {
   padding: 20px;
 }
 .grid-container2 a {
-  font-size: 28px;
+  font-size: 29px;
 }
