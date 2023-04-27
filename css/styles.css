@@ -199,8 +199,8 @@ p {
     font-size: 50px !important;
   }
 
-  .with {
-    font-size: 21px;
+  h3 {
+    font-size: 37px;
   }
 
   form.example input[type="text"] {
@@ -224,10 +224,14 @@ p {
   margin: auto;
   font-weight: 700;
   padding-bottom: 30px;
-  margin-top: 30px;
+  padding-top: 30px;
   color: #ffc0c7;
   margin: auto;
-  font-size: 23px;
+  /* font-size: 28px; */
+}
+
+h3 {
+  font-size: 21px;
 }
 
 .learndiv {
