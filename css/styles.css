@@ -1,5 +1,9 @@
  /** @format */
-
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro" sans-serif;
+}
 .navdiv {
   background-color: white;
 }
@@ -200,9 +204,11 @@ p {
   }
 
   h3 {
-    font-size: 37px;
+    font-size: 21px !important;
   }
-
+  .with {
+    font-size: 21px !important;
+  }
   form.example input[type="text"] {
     padding-left: 16px;
   }
@@ -224,14 +230,16 @@ p {
   margin: auto;
   font-weight: 700;
   padding-bottom: 30px;
+  font-family: "Source Sans Pro" sans-serif;
   padding-top: 30px;
   color: #ffc0c7;
   margin: auto;
-  /* font-size: 28px; */
+  font-size: 23px;
 }
 
 h3 {
   font-size: 21px;
+  font-family: "Source Sans Pro" sans-serif;
 }
 
 .learndiv {
