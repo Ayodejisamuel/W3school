@@ -411,13 +411,14 @@ button {
   text-decoration: underline;
   font-weight: 700;
   width: 100%;
+  font-size: 23px;
   padding-top: 30px;
   text-align: center;
   font-family: "Source Sans Pro" sans-serif;
   clear: both;
 }
 
-a {
+.notsrelink {
   /* background-color: transparent;*/
   text-decoration: underline;
   font-family: "Source Sans Pro", sans-serif;
@@ -427,8 +428,8 @@ a {
   cursor: pointer;
 }
 
-a:hover,
-a:active {
+.notsurelink:hover,
+.notsurelink:active {
   color: #059862;
   outline-width: 0;
 }
