@@ -208,6 +208,9 @@ p {
   } */
   .with {
     font-size: 19px !important;
+   
+
+  font-family: "Source Sans Pro" sans-serif;
   }
   form.example input[type="text"] {
     padding-left: 16px;
