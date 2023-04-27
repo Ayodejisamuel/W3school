@@ -130,7 +130,7 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   h1 {
     font-size: 40px;
   }
@@ -147,7 +147,7 @@ h1 {
     margin: auto;
     text-align: center;
   }
-}
+} */
 
 p {
   font-size: 19px;
@@ -181,7 +181,7 @@ p {
 }
 
 .learn {
-  width: 80%;
+  width: 100%;
   text-align: center;
   line-height: 1.5;
   margin: auto;
@@ -206,6 +206,10 @@ p {
   form.example input[type="text"] {
     padding-left: 16px;
   }
+
+  form.example button {
+    width: 0%;
+  }
 }
 
 .html {
@@ -225,9 +229,10 @@ p {
   margin: auto;
   font-size: 23px;
 }
+
 .learndiv {
   margin: auto;
-  width: 100%;
+  width: 80%;
   height: 50vh;
   position: relative;
   /* background-color: red; */
@@ -265,13 +270,16 @@ form {
   }
 
   a {
-    font-size: 21px;
+    font-size: 19px;
   }
 }
 
 @media screen and (max-width: 600px) {
   form.example input[type="text"] {
     padding-left: 16px;
+  }
+
+  form.example input[type="text"] {
   }
 }
 
