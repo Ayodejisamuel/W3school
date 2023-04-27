@@ -204,7 +204,7 @@ p {
   }
 
   h3 {
-    font-size: 21px !important;
+    font-size: 19px !important;
   }
   .with {
     font-size: 21px !important;
@@ -233,11 +233,12 @@ p {
   font-family: "Source Sans Pro" sans-serif;
   padding-top: 30px;
   color: #ffc0c7;
-  margin: auto; 
+  margin: auto;
+  /* font-size: 3px; */
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 23px;
   font-family: "Source Sans Pro" sans-serif;
 }
 
