@@ -4,7 +4,7 @@
   margin: 0;
   font-family: "Source Sans Pro" sans-serif;
 }
-.navdiv {
+/* .navdiv {
   background-color: white;
 }
 
@@ -108,6 +108,147 @@
   text-align: center;
   background-color: white;
   margin: auto;
+} */
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  font-family: "Source Sans Pro" sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Source Sans Pro" sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Source Sans Pro" sans-serif;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Source Sans Pro" sans-serif;
+  padding: 0;
+}
+.menu li {
+  position: relative;
+  font-family: "Source Sans Pro" sans-serif;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.menu a {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  font-family: "Source Sans Pro" sans-serif;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #007bff;
+}
+.menu .sub-menu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bolder;
+  top: 40px;
+  font-family: "Source Sans Pro" sans-serif;
+  left: 0;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+.menu .sub-menu li {
+  margin: 10px 0;
+}
+.menu .sub-menu a {
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+}
+.menu li:hover > .sub-menu {
+  display: block;
+}
+.arrow-down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  border-top: 5px solid #000;
+  font-family: "Source Sans Pro" sans-serif;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Source Sans Pro" sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  font-family: ;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  /* Hide all buttons except Sign up */
+  .buttons button:not(:first-child) {
+    display: none;
+  }
+  /* Move logo closer to the left */
+  .logo {
+    margin-right: auto;
+  }
+  /* Show Menu dropdown */
+  .menu {
+    display: none;
+  }
+  .menu:first-child {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Hide all buttons except Sign up and Get certified */
+  .buttons button:not(:first-child):not(:last-child) {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Show all buttons */
+  .buttons button {
+    display: block;
+  }
 }
 
 body {
@@ -207,10 +348,7 @@ p {
     font-size: 19px !important;
   } */
   .with {
-    font-size: 19px !important;
-   
-
-  font-family: "Source Sans Pro" sans-serif;
+    font-size: 21px !important;
   }
   form.example input[type="text"] {
     padding-left: 16px;
@@ -241,7 +379,7 @@ p {
 }
 
 h3 {
-  font-size: 23px;
+  /* font-size: 23px; */
   font-family: "Source Sans Pro" sans-serif;
 }
 
