@@ -35,7 +35,7 @@
 
 /* Style for the paragraph in the first div */
 .first-div p {
-  font-size: 19px;
+  font-size: 19px !important;
   margin-bottom: 20px;
 }
 
@@ -79,9 +79,7 @@
     width: calc(50% - 10px);
   }
 
-  .first-div p {
-    font-size: 21px;
-  }
+ 
 
   .python {
     height: 800px;
