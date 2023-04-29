@@ -77,6 +77,14 @@
   .first-div {
     width: calc(50% - 10px);
   }
+
+  .python {
+    height: 800px;
+  }
+
+  .javascriptcontent {
+    height: 600px;
+  }
 }
 
 .images {
@@ -546,7 +554,7 @@ h3 {
 .learndiv {
   margin: auto;
   width: 80%;
-  height: 70vh;
+  height: 500px;
   position: relative;
   /* background-color: red; */
   align-items: center;
@@ -846,13 +854,18 @@ button {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+@media screen (min-width:601) {
+  
+  
+}
+
 .section {
  
   padding: 0;
   margin: 0;
   width: 100%;
 
-  height: 170vh;
+  /* height: 570px; */
   background-color: #fff4a3 !important;
 }
 .cssheader {
@@ -876,7 +889,7 @@ button {
 /* Javascript Code starts here*/
 
 .javascript {
-  height: 400px;
+  /* height: 400px; */
   width: 50%;
   margin: auto;
   background-color: #282a35;
@@ -884,7 +897,7 @@ button {
 }
 
 .javascriptcontent {
-  height: 400px;
+  /* height: 500px; */
   width: 100%;
   margin: auto;
   background-color: #282a35;
@@ -929,16 +942,16 @@ button {
 /* code for python starts here */
 
 .python {
-  bottom: 30px;
+
   width: 100%;
   margin: auto;
   background-color: #f3ecea !important;
   color: #282a35;
-  height: 500px;
+  /* height: 500px; */
 }
 .pythonheader {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 0px;
   font-size: 60px;
   font-weight: 700;
 
@@ -977,7 +990,18 @@ button {
 }
 
 /* sql codes starts here*/
+.sqlheaderr {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  font-size: 45px;
+  font-weight: 700;
+  align-items: center;
 
+  margin-top: 30px !important;
+  font-family: "Source Sans Pro", sans-serif;
+}
 .sqlheader {
   text-align: center;
   width: 100%;
@@ -995,13 +1019,21 @@ button {
   text-align: center;
   padding: 20px;
 }
-
+.sqll {
+  bottom: 30px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  width: 100%;
+  /* height: 500px; */
+  color: white !important;
+  background-color: #282a35;
+}
 .sql {
   bottom: 30px;
   padding-top: 10px;
   margin-bottom: 50px;
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   color: black !important;
   background-color: #96d4d4 !important;
 }
@@ -1092,7 +1124,7 @@ button {
 }
 
  /* Media query for laptop devices */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 994px) {
   .second-div {
     display: block;
     width: calc(50% - 10px);
@@ -1103,7 +1135,7 @@ button {
   }
 
  .sqlheader {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
   }
   .cssheader {
@@ -1122,12 +1154,12 @@ button {
   }
 
   .javalan {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 700;
   }
 
   .pythonheader {
-    font-size: 100px;
+    font-size: 70px;
     font-weight: 700;
   }
 }
@@ -1207,7 +1239,7 @@ button {
   }
 }
 
-@media screen and (min-width: 820px) {
+@media (min-width: 992px) and (max-width: 1199px){
   .grid {
     grid-template-columns: 1fr 1fr;
     width: 90%;
@@ -1248,14 +1280,6 @@ button {
     text-decoration: none;
   }
 
-  .grid1 {
-    grid-template-columns: 1fr 1fr;
-    column-gap: 100px;
-    width: 90%;
-    box-sizing: border-box;
-    margin: auto;
-    margin-top: 40px;
-  }
 
   .grid2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1266,7 +1290,7 @@ button {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 994px) {
   .btnupgrade {
     display: block;
     position: relative;
@@ -1291,6 +1315,16 @@ button {
     left: 900px;
     top: 5px;
   }
+
+  .grid1 {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 40px;
+  }
+
 }
 /* New Section Code */
 .link-container {
