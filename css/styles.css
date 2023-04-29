@@ -35,7 +35,7 @@
 
 /* Style for the paragraph in the first div */
 .first-div p {
-  font-size: 20px;
+  font-size: 19px;
   margin-bottom: 20px;
 }
 
@@ -73,9 +73,14 @@
     padding-bottom: 50px;
     max-width: fit-content;
   }
+   
 
   .first-div {
     width: calc(50% - 10px);
+  }
+
+  .first-div p {
+    font-size: 21px;
   }
 
   .python {
@@ -103,7 +108,9 @@
   .first-div {
     width: calc(50% - 10px);
   }
-
+.first-div p {
+  font-size: 21px;
+}
  .sqlheader {
     font-size: 100px;
     font-weight: 700;
@@ -117,6 +124,7 @@
     font-size: 100px;
     font-weight: 700;
   }
+  
 
   h1 {
     font-size: 100px;
@@ -474,6 +482,8 @@ p {
   font-size: 19px;
   font-weight: 700;
   padding-bottom: 20px;
+  width: 100%;
+
 }
 
 .learncode {
@@ -752,9 +762,9 @@ button {
 }
 
 .htmlcontent {
-  padding: 30px auto;
+  padding:   ;
   align-items: center;
-  margin: 150px auto;
+  margin: 15px auto;
   width: 100%;
   justify-content: center;
 
@@ -945,6 +955,7 @@ button {
 
   width: 100%;
   margin: auto;
+  padding-bottom: 20px;
   background-color: #f3ecea !important;
   color: #282a35;
   /* height: 500px; */
