@@ -35,7 +35,7 @@
 
 /* Style for the paragraph in the first div */
 .first-div p {
-  font-size: 19px !important;
+  font-size: 19px;
   margin-bottom: 20px;
 }
 
@@ -79,7 +79,9 @@
     width: calc(50% - 10px);
   }
 
- 
+  .first-div p {
+    font-size: 21px;
+  }
 
   .python {
     height: 800px;
@@ -140,13 +142,68 @@
   }
 }
 
+/* flexbox try start */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.super-flex-container {
+  width: 95%;
+  margin: auto;
+}
+.flex-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  background-color: #fff;
+  /* border: 2px solid #000; */
+  border-radius: 5px;
+  padding: 24px 0;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  flex-basis: 100%;
+}
 
+@media only screen and (min-width: 768px) {
+  .flex-container a {
+    flex-basis: calc(50% - 30px);
+    margin-bottom: 0;
+  }
+
+
+}
+
+/* @media only screen and (min-width: 900px) {
+  .flex-container a {
+    flex-basis: calc(25% - 40px);
+    margin-bottom: 30px;
+  }
+} */
+ 
+@media only screen and (min-width: 1024px) {
+  .flex-container a {
+    flex-basis: calc(25% - 58px);
+    margin-bottom: 30px;
+  }
+
+
+}
+/* flexbox try end */
 
 /* End of html div */
 
 .link-container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
@@ -770,7 +827,6 @@ button {
 }
 .languagehtml {
   width: 100%;
-
   padding-top: 20px;
   margin: auto;
 }
@@ -1261,7 +1317,7 @@ button {
 
   .cdivv {
     margin-top: 50px;
-    column-gap: 100px;
+    /* column-gap: 100px; */
     grid-template-columns: 1fr 1fr;
     width: 90%;
   }
@@ -1294,7 +1350,7 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 100px;
     row-gap: 10px;
-    width: 90%;
+    width: 95%;
     box-sizing: border-box;
   }
 }
@@ -1305,7 +1361,15 @@ button {
     position: relative;
     left: 400px;
   }
-
+.cdivv {
+  width: 95%;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  box-sizing: border-box;
+  column-gap: 100px;
+  margin: ;
+  margin: auto;
+}
   .btnwebsite {
     display: block;
     position: relative;
@@ -1328,7 +1392,7 @@ button {
   .grid1 {
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
-    width: 90%;
+    width: 95%;
     box-sizing: border-box;
     margin: auto;
     margin-top: 40px;
