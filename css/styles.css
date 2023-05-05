@@ -160,14 +160,14 @@
   line-height: 1.5;
   font-size: 20px;
   font-weight: 600;
-  margin: 5px 0;
+  margin: 10px 0;
   font-family: 'Source Sans Pro', sans-serif;
   color: #000;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   background-color: #fff;
   /* border: 2px solid #000; */
   border-radius: 5px;
-  padding: 24px 0;
+  padding: 34px 0;
   margin-bottom: 10px;
   box-sizing: border-box;
   flex-basis: 100%;
@@ -178,6 +178,13 @@
     flex-basis: calc(50% - 30px);
     margin-bottom: 0;
     padding: 34px 0;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  h4 {
+    font-size: 23px;
+    font-weight: bold;
   }
 
 
@@ -190,11 +197,12 @@
   }
 } */
  
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width:1024px) {
   .flex-container a {
     flex-basis: calc(25% - 58px);
     margin-bottom: 30px;
     padding: 34px 0;
+    font-size: 24px;
   }
 
 
@@ -460,9 +468,9 @@ nav {
     display: none;
   }
   /* Move logo closer to the left */
-  .logo {
-    margin-right: auto;
-  }
+  /* .logo {
+    margin-right: 20px
+  } */
   /* Show Menu dropdown */
   .menu {
     display: none;
@@ -536,10 +544,12 @@ h1 {
 } */
 
 p {
-  font-size: 19px;
+  /* font-size: 21px;
   font-weight: 700;
   padding-bottom: 20px;
-  width: 100%;
+  width: 100%; */
+
+  font-weight: 700;
 
 }
 
@@ -604,18 +614,19 @@ p {
   text-align: center;
   line-height: 1.5;
   margin: auto;
-  font-weight: 700;
+  /* font-weight: 700; */
   padding-bottom: 30px;
   font-family: "Source Sans Pro" sans-serif;
   padding-top: 30px;
   color: #ffc0c7;
   margin: auto;
-  font-size: 23px;
+  font-size: 19px;
 }
 
 h3 {
   /* font-size: 23px; */
   font-family: "Source Sans Pro" sans-serif;
+  font-weight: bold;
 }
 
 .learndiv {
@@ -1311,7 +1322,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 -20px;
+  margin: 0 0px;
 }
 .linkss-super-container {
   width: 95%;
@@ -1322,7 +1333,9 @@ button {
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
- padding: 24px 0;
+ padding: 34px 0;
+ 
+ 
  font-weight: bold;
  font-family: "Source Sans Pro", sans-serif;
  line-height: 1.5;
@@ -1353,6 +1366,7 @@ button {
 @media only screen and (min-width: 768px) {
   .linkss-container {
     margin: 10px -20px;
+    
     /* padding: 34px; */
     
   }
@@ -1360,7 +1374,7 @@ button {
   .linkss-container a {
     flex-basis: calc(50% - 58px);
     margin: 20px;
-    padding: 40px;
+    padding: 34px 0;
   
   }
 }
