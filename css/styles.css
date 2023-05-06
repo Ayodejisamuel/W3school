@@ -66,11 +66,6 @@ svg[Attributes Style] {
   .first-div {
     width: 100%;
   }
- 
- .learndiv {
-  
-  height: 500px;
- }
 }
 
 /* Media query for tablet devices */
@@ -249,7 +244,112 @@ svg[Attributes Style] {
   margin: 0;
   font-family: "Source Sans Pro" sans-serif;
 }
- 
+/* .navdiv {
+  background-color: white;
+}
+
+.firstdiv {
+  display: flex;
+}
+
+.topdiv {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btnMenu {
+  color: black;
+  padding: 6px 10px;
+  width: 200px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Source Sans Pro" sans-serif;
+  text-align: center;
+
+  margin: 5px auto;
+}
+
+.btnsignup {
+  background-color: #45a049 !important;
+  margin: auto;
+  z-index: 5;
+  display: none;
+  border-radius: 15px;
+  padding: 8px;
+  position: relative;
+  font-size: 15px;
+  color: white;
+  top: 5px;
+}
+.btnsignin {
+  background-color: #45a049 !important;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 8px;
+
+  position: relative;
+  font-size: 15px;
+  color: white;
+  top: 8px;
+  left: 75px;
+}
+.btnwebsite {
+  color: #282a35;
+  margin: 5px 7px;
+  padding: 8px;
+  width: 140px;
+  text-decoration: none;
+  font-size: 16px;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #fff4a3;
+}
+.btncert {
+  color: #282a35;
+  padding: 8px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  display: none;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px 7px;
+  background-color: #ffc0c7;
+}
+.btnupgrade {
+  color: #fff;
+  padding: 8px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 7px;
+  margin-left: 0px;
+  display: none;
+
+  border-radius: 20px;
+  text-align: center;
+  background-color: #9763f6;
+}
+.topbtn {
+  color: #282a35;
+  padding: 12px 12px;
+  width: 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+} */
+
 header {
   background-color: #fff;
   padding: 20px 0;
@@ -528,7 +628,7 @@ h3 {
 .learndiv {
   margin: auto;
   width: 80%;
-  height: 400px;
+  height: 450px;
   position: relative;
   /* background-color: red; */
   align-items: center;
@@ -1098,7 +1198,9 @@ button {
     display: block;
     width: calc(50% - 10px);
   }
-
+  .learndiv {
+    height: 490px;
+  }
   .first-div {
     width: calc(50% - 10px);
   }
@@ -2100,5 +2202,5 @@ button {
   padding: 20px;
 }
 .grid-container2 a {
-  font-size: 28px;
+  font-size: 27px;
 }
