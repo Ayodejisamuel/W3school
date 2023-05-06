@@ -1,4 +1,4 @@
-   /** @format */
+ /** @format */
 
 /* just try */
 
@@ -13,11 +13,10 @@
 /* Style for the first div */
 .first-div {
   width: 100%;
-  background-color;
-  max-width: 600px;
+  /* max-width: 600px; */
 
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* Style for the second div */
@@ -73,7 +72,6 @@
     padding-bottom: 50px;
     max-width: fit-content;
   }
-   
 
   .first-div {
     width: calc(50% - 10px);
@@ -94,8 +92,6 @@
 
 .images {
   width: 100%;
-
-
 }
 
 /* Media query for laptop devices */
@@ -108,10 +104,10 @@
   .first-div {
     width: calc(50% - 10px);
   }
-.first-div p {
-  font-size: 21px;
-}
- .sqlheader {
+  .first-div p {
+    font-size: 21px;
+  }
+  .sqlheader {
     font-size: 100px;
     font-weight: 700;
   }
@@ -124,7 +120,6 @@
     font-size: 100px;
     font-weight: 700;
   }
-  
 
   h1 {
     font-size: 100px;
@@ -161,9 +156,9 @@
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #000;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   background-color: #fff;
   /* border: 2px solid #000; */
   border-radius: 5px;
@@ -186,8 +181,6 @@
     font-size: 23px;
     font-weight: bold;
   }
-
-
 }
 
 /* @media only screen and (min-width: 900px) {
@@ -196,16 +189,14 @@
     margin-bottom: 30px;
   }
 } */
- 
-@media only screen and (min-width:1024px) {
+
+@media only screen and (min-width: 1024px) {
   .flex-container a {
     flex-basis: calc(25% - 58px);
     margin-bottom: 30px;
     padding: 34px 0;
     font-size: 24px;
   }
-
-
 }
 /* flexbox try end */
 
@@ -550,7 +541,6 @@ p {
   width: 100%; */
 
   font-weight: 700;
-
 }
 
 .learncode {
@@ -569,7 +559,7 @@ p {
   width: 50%;
   background-color: #282a35 !important;
 }
- 
+
 .learn {
   width: 100%;
   text-align: center;
@@ -830,7 +820,7 @@ button {
 }
 
 .htmlcontent {
-  padding:   ;
+  padding: ;
   align-items: center;
   margin: 15px auto;
   width: 100%;
@@ -845,7 +835,6 @@ button {
 }
 
 .headinghtml {
-
   padding-bottom: 20px;
   font-size: 60px;
   font-weight: 700;
@@ -931,13 +920,10 @@ button {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-@media screen (min-width:601) {
-  
-  
+@media screen (min-width: 601) {
 }
 
 .section {
- 
   padding: 0;
   margin: 0;
   width: 100%;
@@ -1019,7 +1005,6 @@ button {
 /* code for python starts here */
 
 .python {
-
   width: 100%;
   margin: auto;
   padding-bottom: 20px;
@@ -1201,7 +1186,7 @@ button {
   box-sizing: border-box;
 }
 
- /* Media query for laptop devices */
+/* Media query for laptop devices */
 @media only screen and (min-width: 994px) {
   .second-div {
     display: block;
@@ -1212,7 +1197,7 @@ button {
     width: calc(50% - 10px);
   }
 
- .sqlheader {
+  .sqlheader {
     font-size: 80px;
     font-weight: 700;
   }
@@ -1241,10 +1226,6 @@ button {
     font-weight: 700;
   }
 }
-
-
-  
-
 
 .item3 {
   padding: 40px;
@@ -1333,19 +1314,18 @@ button {
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
- padding: 34px 0;
- 
- 
- font-weight: bold;
- font-family: "Source Sans Pro", sans-serif;
- line-height: 1.5;
- text-decoration:none;
- box-sizing: border-box;
- color: black;
- font-family: ;
- margin: 5px 0;
- font-size: 20px;
- /* padding: 24px 0;
+  padding: 34px 0;
+
+  font-weight: bold;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: black;
+  font-family: ;
+  margin: 5px 0;
+  font-size: 20px;
+  /* padding: 24px 0;
   background-color: #ddd;
   color: black;
   font-weight: bold;
@@ -1366,23 +1346,20 @@ button {
 @media only screen and (min-width: 768px) {
   .linkss-container {
     margin: 10px -20px;
-    
+
     /* padding: 34px; */
-    
   }
 
   .linkss-container a {
     flex-basis: calc(50% - 58px);
     margin: 20px;
     padding: 34px 0;
-  
   }
 }
 
+/* Excel section End */
 
- /* Excel section End */
-
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px) {
   .grid {
     grid-template-columns: 1fr 1fr;
     width: 90%;
@@ -1423,7 +1400,6 @@ button {
     text-decoration: none;
   }
 
-
   .grid2 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 100px;
@@ -1439,15 +1415,15 @@ button {
     position: relative;
     left: 400px;
   }
-.cdivv {
-  width: 95%;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
-  box-sizing: border-box;
-  column-gap: 100px;
-  margin: ;
-  margin: auto;
-}
+  .cdivv {
+    width: 95%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    box-sizing: border-box;
+    column-gap: 100px;
+    margin: ;
+    margin: auto;
+  }
   .btnwebsite {
     display: block;
     position: relative;
@@ -1475,7 +1451,6 @@ button {
     margin: auto;
     margin-top: 40px;
   }
-
 }
 /* New Section Code */
 .link-container {
