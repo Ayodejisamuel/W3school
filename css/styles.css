@@ -257,6 +257,13 @@
     .link-container a {
       width: calc(50% - 20px);
     }
+
+    
+    .code-editordiv a {
+      width: 60%;
+      margin: auto;
+      margin-top: 20px;
+    }
   }
   
   @media (min-width: 1200px) {
@@ -402,6 +409,12 @@
     /* Hide all buttons except Sign up and Get certified */
     .buttons button:not(:first-child):not(:last-child) {
       display: none;
+    }
+
+    .code-editordiv a {
+      width: 60%;
+      margin: auto;
+      margin-top: 20px;
     }
   }
   
