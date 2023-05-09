@@ -1,5 +1,5 @@
-  /** @format */
- svg[Attributes ] {
+    /** @format */
+   svg[Attributes ] {
     width: 100%;
     height: 70;
     box-sizing: border-box;
@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     background-color: powderblue;
+    
   }
   
   /* Style for the first div */
@@ -101,12 +102,20 @@
   }
   
   /* Media query for laptop devices */
-  @media only screen and (min-width: 1025px) {
+  @media only screen and (min-width: 1000px) {
     .second-div {
       display: block;
       width: calc(50% - 10px);
     }
-  
+  .first-div {
+    width: 50%;
+    margin: auto;
+  }
+
+  .sqlcontent {
+    width: 50%;
+    margin: auto;
+  }
     .first-div {
       width: calc(50% - 10px);
     }
@@ -145,9 +154,10 @@
   
   /* flexbox try start */
   .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* row-gap: 5px; */
+    /* column-gap: 100px; */
   }
   .super-flex-container {
     width: 95%;
@@ -175,12 +185,17 @@
   }
   
   @media only screen and (min-width: 768px) {
-    .flex-container a {
+    /* .flex-container a {
       flex-basis: calc(50% - 30px);
       margin-bottom: 0;
       padding: 34px 0;
       font-size: 24px;
       margin-bottom: 25px;
+    } */
+
+    .flex-container {
+      grid-template-columns: 1fr 1fr ;
+      column-gap: 50px;
     }
   
     h4 {
@@ -203,7 +218,18 @@
       padding: 34px 0;
       font-size: 24px;
     }
+
+    .flex-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      row-gap: 40px;
+      column-gap: 100px;
+    }
+  
   }
+
+
+  
   /* flexbox try end */
   
   /* End of html div */
